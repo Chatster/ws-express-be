@@ -1,6 +1,7 @@
 import * as express from 'express';
 import * as http from 'http';
 import * as WebSocket from 'ws';
+import { ClientMessageEntity } from './entities/ClientMessage.entity';
 
 const app = express();
 
@@ -19,28 +20,36 @@ wss.on('connection', (ws: WebSocket) => {
     });
 
     //connection is up, let's add a simple simple event
-    ws.on('message', (message: string) => {
+    ws.on('message', (message: any) => {
 
         //log the received message and send it back to the client
-        console.log('received: %s', message);
+        console.log('Recieved message from client');
+        console.log(message);
+        const parsedMessage = <ClientMessageEntity>JSON.parse(message);
+
+        if (parsedMessage.message === 'CONNECTED_CLIENT') {
+            console.log('New client connected');
+            (<any>ws).clientId = parsedMessage.payload.clientId;
+        }
+        //  Send a message recieved confirm to the client
         ws.send('Message recieved');
 
-        const broadcastRegex = /^broadcast\:/;
+        // const broadcastRegex = /^broadcast\:/;
 
-        if (broadcastRegex.test(message)) {
-            message = message.replace(broadcastRegex, '');
+        // if (broadcastRegex.test(message)) {
+        //     message = message.replace(broadcastRegex, '');
 
-            //send back the message to the other clients
-            wss.clients
-                .forEach(client => {
-                    if (client != ws) {
-                        client.send(`Hello, broadcast message -> ${message}`);
-                    }
-                });
+        //     //send back the message to the other clients
+        //     wss.clients
+        //         .forEach(client => {
+        //             if (client != ws) {
+        //                 client.send(`Hello, broadcast message -> ${message}`);
+        //             }
+        //         });
 
-        } else {
-            ws.send(`Hello, you sent -> ${message}`);
-        }
+        // } else {
+        //     ws.send(`Hello, you sent -> ${message}`);
+        // }
     });
 
     //send immediatly a feedback to the incoming connection    
@@ -55,11 +64,11 @@ setInterval(() => {
             return ws.terminate();
         }
 
-        // console.log('Still alive');
+        console.log('Client %s still alive', (<any>ws).clientId);
         (<any>ws).isAlive = false;
         ws.ping(null, false, true);
     });
-}, 1000);
+}, 10000);
 
 wss.on('error', (e) => {
     console.log('Error: -> %s', e.message);
