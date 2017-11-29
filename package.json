@@ -9,7 +9,9 @@
   "author": "Caius Citiriga AKA MXN",
   "license": "MIT",
   "dependencies": {
+    "@types/socket.io": "^1.4.31",
     "express": "^4.16.2",
+    "socket.io": "^2.0.4",
     "ws": "^3.3.2"
   },
   "devDependencies": {
