@@ -1,1 +1,0 @@
-{"version":3,"file":"socket-message-types.config.js","sourceRoot":"","sources":["../../../src/configs/socket-message-types.config.ts"],"names":[],"mappings":";;AAAa,QAAA,kBAAkB,GAAG;IAC9B,gBAAgB,EAAE,kBAAkB;IACpC,mBAAmB,EAAE,qBAAqB;IAC1C,aAAa,EAAE,eAAe;IAC9B,cAAc,EAAE,gBAAgB;IAChC,SAAS,EAAE,WAAW;CACzB,CAAC"}

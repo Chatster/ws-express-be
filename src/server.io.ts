@@ -4,77 +4,133 @@ import * as io from 'socket.io';
 import * as express from 'express';
 import * as cors from 'cors';
 
+import 'rxjs/add/operator/filter';
+
+import { RoomDTO } from './x-shared/dtos/Room.dto';
+import { RoomsListDTO } from './x-shared/dtos/RoomsList.dto';
+
+import { Room } from './x-shared/entities/Room.entity';
+
+import { SocketEventType } from './x-shared/events/SocketEventType';
+
 import { ROOMS } from './configs/rooms.config';
-import { SocketMessageTypes } from './configs/socket-message-types.config';
-
-import { Room } from './entities/Room.entity';
-
-import { ClientRegistrationDTO } from './dtos/ClientRegistration.dto';
-
-import { RoomsManager } from './core/RoomsManager.core';
-
-import { CommonUtils } from './utilities/utilities';
-import { User } from './entities/User.entity';
-import { JoinedRoomDTO } from './dtos/JoinedRoom.dto';
-import { RoomDisconnectDTO } from './dtos/RoomDisconnect.dto';
-import { setInterval } from 'timers';
-import { SocketEventType } from '../../SocketEventType';
+import { RoomsManager } from './core/RoomsManger.core';
+import { SocketUserDTO } from './x-shared/dtos/SocketUser.dto';
+import { SocketUser } from './x-shared/entities/SocketUser.entity';
 
 export class ChatsterServerIO {
     //  Socket and server stuff
     private app = express();
-    private SockIO: SocketIO.Namespace;
+    private serverStarted: boolean;
+    private SockIO: SocketIO.Server;
     private HTTPServer: http.Server;
     private sockets: SocketIO.Socket[];
 
     //  Rooms stuff
-    private rooms: Room[];
     private roomsManager: RoomsManager;
+    private namespaces: SocketIO.Namespace[];
+    private rooms: Room[];
 
-    public constructor(roomsManagerService: RoomsManager) {
+    public constructor(roomsManager: RoomsManager) {
+        this.rooms = [];
         this.sockets = [];
+        this.namespaces = [];
+        this.roomsManager = roomsManager;
+
+        //  Setup the socket before using it for the namespaces
         this.createServer();
-        this.startServer();
-    }
+        this.startSocketHost();
 
-    private createServer() {
-        this.HTTPServer = http.createServer(this.app);
-        this.SockIO = io.listen(this.HTTPServer)
-            .on(SocketEventType.connection, (socket: SocketIO.Socket) => {
-                console.log('New socket connected');
-
-                this.sockets.push(socket);
-                socket.emit(SocketEventType.client.connected);
-
-                socket.on(SocketEventType.client.registration, (clientData: { username: string, room: string }) => {
-                    console.log(`Client ${clientData.username} has joined room ${clientData.room}`);
-
-                    (<any>socket).username = clientData.username;
-                    this.SockIO.emit(SocketEventType.client.registered, { username: clientData.username });
-                });
-
-                socket.on(SocketEventType.message.send, (data: { message: string, user: string }) => {
-                    this.SockIO.emit(SocketEventType.message.newMessage, { message: data.message, from: data.user });
-                });
-
-                socket.on(SocketEventType.client.disconnect, () => {
-                    console.log(`${(<any>socket).username} has disconnected`);
-
-                    this.sockets = this.sockets.filter(s => s.id !== socket.id);
-
-                    socket.disconnect();
-                    this.SockIO.emit(SocketEventType.client.disconnect, { username: (<any>socket).username });
-                });
+        this.roomsManager.$rooms
+            .filter(rooms => !!rooms)
+            .subscribe(rooms => {
+                this.rooms = rooms;
+                this.createNamespacesRooms();
+                this.runNamespacesListeners();
             });
+
+        this.SockIO.on(SocketEventType.connection, (socket: SocketIO.Socket) => {
+            console.log('Client connected to main socket. Listening for rooms requests.');
+            this.SockIO.emit(SocketEventType.client.connected);
+            this.listenForRoomsRequest(socket);
+
+            socket.once(SocketEventType.disconnect, (socket: SocketIO.Socket) => {
+                console.log('A socket has been disconnected');
+            });
+        });
     }
 
-    private startServer() {
+    public start() {
         this.HTTPServer.listen(process.env.PORT || 4000, () => {
             console.log(`Server started on port ${this.HTTPServer.address().port}`);
         });
     }
+
+    private createServer() {
+        this.HTTPServer = http.createServer(this.app);
+    }
+
+    private startSocketHost() {
+        this.SockIO = io.listen(this.HTTPServer);
+    }
+
+    private listenForRoomsRequest(socket: SocketIO.Socket) {
+        socket.once(SocketEventType.room.requestList, () => {
+            const DTO = this.prepareRoomsListDTO();
+            this.SockIO.emit(SocketEventType.room.responseList, DTO);
+        });
+    }
+
+    private prepareRoomsListDTO(): RoomsListDTO {
+        const roomsList: RoomsListDTO = new RoomsListDTO();
+        roomsList.rooms = [];
+
+        this.rooms.forEach(r => {
+            const room = new RoomDTO();
+            room.id = r.id;
+            room.name = r.name;
+            room.description = r.description;
+
+            room.users = [];
+            if (!!r.users && r.users.length) {
+                r.users.forEach(usr => {
+                    const userDTO = new SocketUserDTO();
+                    userDTO.socketId = usr.socket.id;
+                    userDTO.username = usr.username;
+                    room.users.push(userDTO);
+                });
+            }
+
+            roomsList.rooms.push(room);
+        });
+
+        return roomsList;
+    }
+
+    private createNamespacesRooms() {
+        this.reInitializeNamespacesIfNeeded();
+        this.rooms.forEach(room => {
+            this.namespaces.push(this.SockIO.of(room.id));
+        });
+    }
+
+    private reInitializeNamespacesIfNeeded() {
+        if (this.namespaces.length) {
+            //  perform a delete for each namespace, just to be sure.
+            this.namespaces.forEach((ns, idx) => delete this.namespaces[idx]);
+            //  then re-initialize the array
+            this.namespaces = [];
+        }
+    }
+
+    private runNamespacesListeners() {
+        this.namespaces.forEach(room => {
+            room.on(SocketEventType.client.connected, () => {
+                console.log('Client connected to room: %s', room.name.replace('/', ''));
+            });
+        });
+    }
 }
 
-const roomsManager = new RoomsManager();
-
-new ChatsterServerIO(roomsManager);
+const CHATSTER = new ChatsterServerIO(new RoomsManager(ROOMS));
+CHATSTER.start();

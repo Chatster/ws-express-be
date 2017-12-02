@@ -1,6 +1,6 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.ROOMS = [
+import { Room } from '../x-shared/entities/Room.entity';
+
+export const ROOMS = <Room[]>[
     {
         id: 'room1',
         name: 'Room 1',
@@ -37,5 +37,4 @@ exports.ROOMS = [
         description: 'Room six description text',
         users: []
     }
-];
-//# sourceMappingURL=rooms.config.js.map
+]

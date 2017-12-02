@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-class User {
+class RoomDTO {
 }
-exports.User = User;
-//# sourceMappingURL=User.entity.js.map
+exports.RoomDTO = RoomDTO;
+//# sourceMappingURL=Room.dto.js.map
