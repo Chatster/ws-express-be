@@ -8,7 +8,7 @@ import { Observable } from 'rxjs/Observable';
 export class RoomsManager {
     private _$rooms: BehaviorSubject<Room[]>;
 
-    public constructor(ROOMS: Room[]) {
+    constructor(ROOMS: Room[]) {
         this._$rooms = new BehaviorSubject(ROOMS);
     }
 

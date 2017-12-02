@@ -9,6 +9,9 @@
             "request": "launch",
             "name": "Launch SocketIO",
             "program": "${workspaceFolder}/src/server.io.ts",
+            "args": [
+                "ENV=dev"
+            ],
             "preLaunchTask": "tsc: build - tsconfig.json",
             "outFiles": [
                 "${workspaceFolder}/dist/server/**/*.js"

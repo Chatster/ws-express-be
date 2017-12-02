@@ -1,0 +1,8 @@
+[02/12/17, 4:36:04 pm] INFO: Server started on port 4000
+[02/12/17, 4:36:10 pm] INFO: A client connected to the main socket.
+[02/12/17, 4:37:02 pm] INFO: Server started on port 4000
+[02/12/17, 4:37:03 pm] INFO: A client connected to the main socket.
+[02/12/17, 4:37:14 pm] INFO: A client has disconnected
+[02/12/17, 4:37:46 pm] INFO: Server started on port 4000
+[02/12/17, 4:37:57 pm] INFO: A client connected to the main socket.
+[02/12/17, 4:38:00 pm] INFO: A client has disconnected from the main socket

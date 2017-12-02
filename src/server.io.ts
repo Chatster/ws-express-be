@@ -17,6 +17,7 @@ import { ROOMS } from './configs/rooms.config';
 import { RoomsManager } from './core/RoomsManger.core';
 import { SocketUserDTO } from './x-shared/dtos/SocketUser.dto';
 import { SocketUser } from './x-shared/entities/SocketUser.entity';
+import { Logger } from './helpers/Logger.helper';
 
 export class ChatsterServerIO {
     //  Socket and server stuff
@@ -31,7 +32,9 @@ export class ChatsterServerIO {
     private namespaces: SocketIO.Namespace[];
     private rooms: Room[];
 
-    public constructor(roomsManager: RoomsManager) {
+    constructor(roomsManager: RoomsManager) {
+        this.readConsoleArgs();
+
         this.rooms = [];
         this.sockets = [];
         this.namespaces = [];
@@ -50,20 +53,33 @@ export class ChatsterServerIO {
             });
 
         this.SockIO.on(SocketEventType.connection, (socket: SocketIO.Socket) => {
-            console.log('Client connected to main socket. Listening for rooms requests.');
+            Logger.info('A client connected to the main socket.');
+
             this.SockIO.emit(SocketEventType.client.connected);
             this.listenForRoomsRequest(socket);
 
             socket.once(SocketEventType.disconnect, (socket: SocketIO.Socket) => {
-                console.log('A socket has been disconnected');
+                Logger.info('A client has disconnected from the main socket');
             });
         });
     }
 
     public start() {
         this.HTTPServer.listen(process.env.PORT || 4000, () => {
-            console.log(`Server started on port ${this.HTTPServer.address().port}`);
+            Logger.info(`Server started on port ${this.HTTPServer.address().port}`);
         });
+    }
+
+    private readConsoleArgs() {
+        const args = process.argv.slice(2);
+        args.forEach(arg => {
+            if (arg.toLowerCase() === 'env=prod') {
+                Logger.fileLogging = false;
+            }
+            if (arg.toLowerCase() === 'env=dev') {
+                Logger.logfilePath = '/Users/caiuscitiriga/Code/chatster/be/src/logs/chatster.log.txt';
+            }
+        })
     }
 
     private createServer() {
@@ -126,7 +142,7 @@ export class ChatsterServerIO {
     private runNamespacesListeners() {
         this.namespaces.forEach(room => {
             room.on(SocketEventType.client.connected, () => {
-                console.log('Client connected to room: %s', room.name.replace('/', ''));
+                Logger.info(`Client connected to room: ${room.name.replace(' / ', '')}`);
             });
         });
     }
