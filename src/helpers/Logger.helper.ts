@@ -54,6 +54,16 @@ export class Logger {
         }
     }
 
+    public static clearLogFile() {
+        fs.writeFile(this.logFilePath, '', err => {
+            if (err) {
+                console.log(this.warn('There was an error clearing the log file.'));
+                console.log(this._chalk.red(err.message));
+                return;
+            }
+        });
+    }
+
     private static log(msg: string, severity: SeverityType) {
         let severityMessage = '';
 

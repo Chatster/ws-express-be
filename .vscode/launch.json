@@ -10,7 +10,8 @@
             "name": "Launch SocketIO",
             "program": "${workspaceFolder}/src/server.io.ts",
             "args": [
-                "ENV=dev"
+                "ENV=dev",
+                "CONF=clear_log_file",
             ],
             "preLaunchTask": "tsc: build - tsconfig.json",
             "outFiles": [

@@ -38,6 +38,15 @@ class Logger {
             this.log(msg, SeverityTypes_enum_1.SeverityType.Error);
         }
     }
+    static clearLogFile() {
+        fs.writeFile(this.logFilePath, '', err => {
+            if (err) {
+                console.log(this.warn('There was an error clearing the log file.'));
+                console.log(this._chalk.red(err.message));
+                return;
+            }
+        });
+    }
     static log(msg, severity) {
         let severityMessage = '';
         if (severity === SeverityTypes_enum_1.SeverityType.Info) {
