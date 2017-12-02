@@ -2,6 +2,12 @@ import { Room } from '../x-shared/entities/Room.entity';
 
 export const ROOMS = <Room[]>[
     {
+        id: 'home',
+        name: 'Home',
+        description: 'Room one description text',
+        users: []
+    },
+    {
         id: 'room1',
         name: 'Room 1',
         description: 'Room one description text',

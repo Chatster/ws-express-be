@@ -4,38 +4,34 @@ const http = require("http");
 const io = require("socket.io");
 const express = require("express");
 require("rxjs/add/operator/filter");
-const Room_dto_1 = require("./x-shared/dtos/Room.dto");
-const RoomsList_dto_1 = require("./x-shared/dtos/RoomsList.dto");
 const SocketEventType_1 = require("./x-shared/events/SocketEventType");
 const rooms_config_1 = require("./configs/rooms.config");
 const RoomsManger_core_1 = require("./core/RoomsManger.core");
-const SocketUser_dto_1 = require("./x-shared/dtos/SocketUser.dto");
 const Logger_helper_1 = require("./helpers/Logger.helper");
+const ArgsReader_core_1 = require("./core/ArgsReader.core");
 class ChatsterServerIO {
     constructor(roomsManager) {
         //  Socket and server stuff
         this.app = express();
-        this.readConsoleArgs();
-        this.rooms = [];
+        ArgsReader_core_1.ArgsReader.readConsoleArgs();
         this.sockets = [];
         this.namespaces = [];
         this.roomsManager = roomsManager;
         //  Setup the socket before using it for the namespaces
         this.createServer();
         this.startSocketHost();
-        this.roomsManager.$rooms
-            .filter(rooms => !!rooms)
-            .subscribe(rooms => {
-            this.rooms = rooms;
-            this.createNamespacesRooms();
-            this.runNamespacesListeners();
-        });
-        this.SockIO.on(SocketEventType_1.SocketEventType.connection, (socket) => {
-            Logger_helper_1.Logger.info('A client connected to the main socket.');
-            this.SockIO.emit(SocketEventType_1.SocketEventType.client.connected);
-            this.listenForRoomsRequest(socket);
-            socket.once(SocketEventType_1.SocketEventType.disconnect, (socket) => {
-                Logger_helper_1.Logger.info('A client has disconnected from the main socket');
+        this.createNamespacesRooms();
+        this.runNamespacesListeners();
+        //  Start the listener on the HOME "room"
+        this.namespaces[0].on(SocketEventType_1.SocketEventType.connection, (socket) => {
+            Logger_helper_1.Logger.info('A client connected to the home namespace.');
+            socket.emit(SocketEventType_1.SocketEventType.client.connected);
+            socket.on(SocketEventType_1.SocketEventType.room.requestList, () => {
+                const DTO = this.roomsManager.prepareRoomsListDTO();
+                socket.emit(SocketEventType_1.SocketEventType.room.responseList, DTO);
+            });
+            socket.on(SocketEventType_1.SocketEventType.disconnect, (socket) => {
+                Logger_helper_1.Logger.info('A client has disconnected from the home namespace');
             });
         });
     }
@@ -44,57 +40,17 @@ class ChatsterServerIO {
             Logger_helper_1.Logger.info(`Server started on port ${this.HTTPServer.address().port}`);
         });
     }
-    readConsoleArgs() {
-        const args = process.argv.slice(2);
-        //  The order of this block matters
-        if (args.find(arg => arg.toLowerCase() === 'env=prod')) {
-            Logger_helper_1.Logger.fileLogging = false;
-        }
-        if (args.find(arg => arg.toLowerCase() === 'env=dev')) {
-            Logger_helper_1.Logger.logfilePath = '/Users/caiuscitiriga/Code/chatster/be/src/logs/chatster.log.txt';
-        }
-        if (args.find(arg => arg.toLowerCase() === 'conf=clear_log_file')) {
-            Logger_helper_1.Logger.clearLogFile();
-        }
-    }
     createServer() {
         this.HTTPServer = http.createServer(this.app);
     }
     startSocketHost() {
         this.SockIO = io.listen(this.HTTPServer);
     }
-    listenForRoomsRequest(socket) {
-        socket.once(SocketEventType_1.SocketEventType.room.requestList, () => {
-            const DTO = this.prepareRoomsListDTO();
-            this.SockIO.emit(SocketEventType_1.SocketEventType.room.responseList, DTO);
-        });
-    }
-    prepareRoomsListDTO() {
-        const roomsList = new RoomsList_dto_1.RoomsListDTO();
-        roomsList.rooms = [];
-        this.rooms.forEach(r => {
-            const room = new Room_dto_1.RoomDTO();
-            room.id = r.id;
-            room.name = r.name;
-            room.description = r.description;
-            room.users = [];
-            if (!!r.users && r.users.length) {
-                r.users.forEach(usr => {
-                    const userDTO = new SocketUser_dto_1.SocketUserDTO();
-                    userDTO.socketId = usr.socket.id;
-                    userDTO.username = usr.username;
-                    room.users.push(userDTO);
-                });
-            }
-            roomsList.rooms.push(room);
-        });
-        return roomsList;
-    }
     createNamespacesRooms() {
         this.reInitializeNamespacesIfNeeded();
-        this.rooms.forEach(room => {
-            this.namespaces.push(this.SockIO.of(room.id));
-        });
+        this.roomsManager
+            .rooms
+            .forEach(room => this.namespaces.push(this.SockIO.of(room.id)));
     }
     reInitializeNamespacesIfNeeded() {
         if (this.namespaces.length) {
@@ -105,11 +61,33 @@ class ChatsterServerIO {
         }
     }
     runNamespacesListeners() {
-        this.namespaces.forEach(room => {
-            room.on(SocketEventType_1.SocketEventType.client.connected, () => {
-                Logger_helper_1.Logger.info(`Client connected to room: ${room.name.replace(' / ', '')}`);
+        this.namespaces
+            .splice(1) // don't listen on the home room
+            .forEach(nsp => {
+            nsp.on(SocketEventType_1.SocketEventType.connection, (socket) => {
+                this.serveRoomData(socket, nsp);
+                //  On user disconnect from room
+                socket.on(SocketEventType_1.SocketEventType.disconnect, () => {
+                    const room = this.roomsManager.getRoomByUserSocketId(socket.id);
+                    this.roomsManager.removeUserFromRoom(room.id, socket.id);
+                    this.notifyHomeSocketUsersOfRoomsChange();
+                    Logger_helper_1.Logger.info(`A client has disconnected from ${nsp.name}`);
+                });
             });
         });
+    }
+    serveRoomData(socket, namespace) {
+        Logger_helper_1.Logger.info(`Client connected to room: ${namespace.name.replace(' / ', '')}; Serving back room data.`);
+        socket.emit(SocketEventType_1.SocketEventType.client.connected);
+        this.roomsManager.joinUserToRoom(namespace.name, socket, 'bot-user');
+        const Room = this.roomsManager.getRoomById(namespace.name.replace('/', ''));
+        const DTO = this.roomsManager.prepareRoomDTO(Room);
+        socket.emit(SocketEventType_1.SocketEventType.room.roomData, DTO);
+        this.notifyHomeSocketUsersOfRoomsChange();
+    }
+    notifyHomeSocketUsersOfRoomsChange() {
+        const ROOMS_LIST_DTO = this.roomsManager.prepareRoomsListDTO();
+        this.namespaces[0].emit(SocketEventType_1.SocketEventType.room.responseList, ROOMS_LIST_DTO);
     }
 }
 exports.ChatsterServerIO = ChatsterServerIO;

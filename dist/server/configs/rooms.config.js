@@ -2,6 +2,12 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ROOMS = [
     {
+        id: 'home',
+        name: 'Home',
+        description: 'Room one description text',
+        users: []
+    },
+    {
         id: 'room1',
         name: 'Room 1',
         description: 'Room one description text',

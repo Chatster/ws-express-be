@@ -16,6 +16,8 @@ class SocketMessageEvents {
 class SocketRoomEvents {
     public requestList = 'rooms.request.list';
     public responseList = 'rooms.response.list';
+
+    public roomData = 'room.data';
 }
 
 export class SocketEventType {

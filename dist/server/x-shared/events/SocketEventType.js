@@ -19,6 +19,7 @@ class SocketRoomEvents {
     constructor() {
         this.requestList = 'rooms.request.list';
         this.responseList = 'rooms.response.list';
+        this.roomData = 'room.data';
     }
 }
 class SocketEventType {

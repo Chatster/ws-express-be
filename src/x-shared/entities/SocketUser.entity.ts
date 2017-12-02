@@ -1,6 +1,6 @@
 import * as io from 'socket.io-client';
 
 export class SocketUser {
-    public socket: SocketIOClient.Socket;
+    public socket: SocketIO.Socket;
     public username: string;
 }
