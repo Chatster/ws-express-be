@@ -19,6 +19,7 @@ import { SocketUserDTO } from './x-shared/dtos/SocketUser.dto';
 import { SocketUser } from './x-shared/entities/SocketUser.entity';
 import { Logger } from './helpers/Logger.helper';
 import { ArgsReader } from './core/ArgsReader.core';
+import { ClientRegistrationDTO } from './x-shared/dtos/ClientRegistration.dto';
 
 export class ChatsterServerIO {
     //  Socket and server stuff
@@ -78,58 +79,65 @@ export class ChatsterServerIO {
     }
 
     private createNamespacesRooms() {
-        this.reInitializeNamespacesIfNeeded();
         this.roomsManager
             .rooms
-            .forEach(room => this.namespaces.push(this.SockIO.of(room.id)));
-
-    }
-
-    private reInitializeNamespacesIfNeeded() {
-        if (this.namespaces.length) {
-            //  perform a delete for each namespace, just to be sure.
-            this.namespaces.forEach((ns, idx) => delete this.namespaces[idx]);
-            //  then re-initialize the array
-            this.namespaces = [];
-        }
+            .forEach(room => {
+                this.namespaces.push(this.SockIO.of(room.id));
+            });
     }
 
     private runNamespacesListeners() {
         this.namespaces
-            .splice(1) // don't listen on the home room
-            .forEach(nsp => {
+            .forEach((nsp, idx) => {
+                if (idx === 0) {
+                    return;
+                }
                 nsp.on(SocketEventType.connection, (socket: SocketIO.Socket) => {
-                    this.serveRoomData(socket, nsp);
+                    socket.emit(SocketEventType.client.connected);
+
+                    socket.on(SocketEventType.client.registration, (data: ClientRegistrationDTO) => {
+                        this.serveRoomData(socket, nsp, data.username);
+                    });
 
                     //  On user disconnect from room
                     socket.on(SocketEventType.disconnect, () => {
                         const room = this.roomsManager.getRoomByUserSocketId(socket.id);
+                        Logger.info(`${room.users.find(usr => usr.socket.id === socket.id).username} has disconnected from ${room.name}`);
                         this.roomsManager.removeUserFromRoom(room.id, socket.id);
 
                         this.notifyHomeSocketUsersOfRoomsChange();
-
-                        Logger.info(`A client has disconnected from ${nsp.name}`);
+                        this.notifyRoomSocketUsersOfRoomsChange(room);
                     });
                 });
 
             });
     }
 
-    private serveRoomData(socket: SocketIO.Socket, namespace: SocketIO.Namespace) {
-        Logger.info(`Client connected to room: ${namespace.name.replace(' / ', '')}; Serving back room data.`);
-        socket.emit(SocketEventType.client.connected);
+    private serveRoomData(socket: SocketIO.Socket, namespace: SocketIO.Namespace, username) {
+        Logger.info(`${username} connected to room: ${namespace.name.replace(' / ', '')}; Serving back room data.`);
 
-        this.roomsManager.joinUserToRoom(namespace.name, socket, 'bot-user');
+        this.roomsManager.joinUserToRoom(namespace.name, socket, username);
         const Room = this.roomsManager.getRoomById(namespace.name.replace('/', ''));
         const DTO = this.roomsManager.prepareRoomDTO(Room);
 
         socket.emit(SocketEventType.room.roomData, DTO);
+
         this.notifyHomeSocketUsersOfRoomsChange();
+        this.notifyRoomSocketUsersOfRoomsChange(Room);
+    }
+
+    private notifyRoomSocketUsersOfRoomsChange(room: Room) {
+        Logger.info(`Notifying ${room.name} users of new user join`);
+        const ROOM_DTO = this.roomsManager.prepareRoomDTO(room);
+
+        this.namespaces
+            .find(nsp => nsp.name === `/${room.id}`)
+            .emit(SocketEventType.client.registered, ROOM_DTO);
     }
 
     private notifyHomeSocketUsersOfRoomsChange() {
         const ROOMS_LIST_DTO = this.roomsManager.prepareRoomsListDTO();
-        this.namespaces[0].emit(SocketEventType.room.responseList, ROOMS_LIST_DTO);
+        this.namespaces[0].emit(SocketEventType.client.connected, ROOMS_LIST_DTO);
     }
 }
 

@@ -44,12 +44,16 @@ export class RoomsManager {
             socketUser.username = username;
 
             //  Check that the array is not undefined
+            let room: Room;
             if (this.rooms.find(room => room.id === roomId).users) {
-                this.rooms.find(room => room.id === roomId).users.push(socketUser);
+                room = this.rooms.find(room => room.id === roomId);
+                room.users.push(socketUser);
             } else {
-                this.rooms.find(room => room.id === roomId).users = [socketUser];
+                room = this.rooms.find(room => room.id === roomId);
+                room.users = [socketUser];
             }
 
+            this._rooms.forEach((r, idx) => r.id === room.id ? this._rooms[idx] = room : null);
         }
     }
 
@@ -58,9 +62,9 @@ export class RoomsManager {
 
         if (roomInWhereTheUserIs) {
             roomInWhereTheUserIs.users = roomInWhereTheUserIs.users.filter(usr => usr.socket.id !== userSockId);
-            this._rooms.forEach(r => {
+            this._rooms.forEach((r, idx) => {
                 if (r.id === roomInWhereTheUserIs.id) {
-                    r = roomInWhereTheUserIs;
+                    this._rooms[idx] = roomInWhereTheUserIs;
                 }
             });
 
@@ -90,7 +94,7 @@ export class RoomsManager {
     }
 
     public prepareRoomsListDTO(): RoomsListDTO {
-        const roomsList: RoomsListDTO = new RoomsListDTO();
+        let roomsList: RoomsListDTO = new RoomsListDTO();
         roomsList.rooms = [];
 
         this._rooms

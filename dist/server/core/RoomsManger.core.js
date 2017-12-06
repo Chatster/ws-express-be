@@ -30,21 +30,25 @@ class RoomsManager {
             socketUser.socket = socket;
             socketUser.username = username;
             //  Check that the array is not undefined
+            let room;
             if (this.rooms.find(room => room.id === roomId).users) {
-                this.rooms.find(room => room.id === roomId).users.push(socketUser);
+                room = this.rooms.find(room => room.id === roomId);
+                room.users.push(socketUser);
             }
             else {
-                this.rooms.find(room => room.id === roomId).users = [socketUser];
+                room = this.rooms.find(room => room.id === roomId);
+                room.users = [socketUser];
             }
+            this._rooms.forEach((r, idx) => r.id === room.id ? this._rooms[idx] = room : null);
         }
     }
     removeUserFromRoom(roomId, userSockId) {
         const roomInWhereTheUserIs = this.getRoomByUserSocketId(userSockId);
         if (roomInWhereTheUserIs) {
             roomInWhereTheUserIs.users = roomInWhereTheUserIs.users.filter(usr => usr.socket.id !== userSockId);
-            this._rooms.forEach(r => {
+            this._rooms.forEach((r, idx) => {
                 if (r.id === roomInWhereTheUserIs.id) {
-                    r = roomInWhereTheUserIs;
+                    this._rooms[idx] = roomInWhereTheUserIs;
                 }
             });
             return true;
@@ -66,7 +70,7 @@ class RoomsManager {
         return DTO;
     }
     prepareRoomsListDTO() {
-        const roomsList = new RoomsList_dto_1.RoomsListDTO();
+        let roomsList = new RoomsList_dto_1.RoomsListDTO();
         roomsList.rooms = [];
         this._rooms
             .forEach(r => {

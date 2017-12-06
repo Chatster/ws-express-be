@@ -1,1 +1,41 @@
-[02/12/17, 11:00:38 pm] INFO: Server started on port 4000
+[06/12/17, 10:56:43 pm] INFO: Server started on port 4000
+[06/12/17, 10:56:44 pm] INFO: A client connected to the home namespace.
+[06/12/17, 10:56:47 pm] INFO: A client connected to the home namespace.
+[06/12/17, 10:56:51 pm] INFO: A client has disconnected from the home namespace
+[06/12/17, 10:56:53 pm] INFO: A client connected to the home namespace.
+[06/12/17, 10:56:55 pm] INFO: A client has disconnected from the home namespace
+[06/12/17, 10:56:57 pm] INFO: A client connected to the home namespace.
+[06/12/17, 10:57:06 pm] INFO: A client has disconnected from the home namespace
+[06/12/17, 10:57:06 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[06/12/17, 10:57:06 pm] INFO: Notifying Room 1 users of new user join
+[06/12/17, 10:57:23 pm] INFO: A client has disconnected from the home namespace
+[06/12/17, 10:57:23 pm] INFO: Zuza connected to room: /room1; Serving back room data.
+[06/12/17, 10:57:23 pm] INFO: Notifying Room 1 users of new user join
+[06/12/17, 10:57:34 pm] INFO: A client connected to the home namespace.
+[06/12/17, 10:57:42 pm] INFO: A client has disconnected from the home namespace
+[06/12/17, 10:57:42 pm] INFO: Jack connected to room: /room1; Serving back room data.
+[06/12/17, 10:57:42 pm] INFO: Notifying Room 1 users of new user join
+[06/12/17, 10:57:48 pm] INFO: Maxine has disconnected from Room 1
+[06/12/17, 10:57:48 pm] INFO: Notifying Room 1 users of new user join
+[06/12/17, 10:58:14 pm] INFO: Oscar connected to room: /room1; Serving back room data.
+[06/12/17, 10:58:14 pm] INFO: Notifying Room 1 users of new user join
+[06/12/17, 10:59:35 pm] INFO: Oscar has disconnected from Room 1
+[06/12/17, 10:59:35 pm] INFO: Notifying Room 1 users of new user join
+[06/12/17, 10:59:35 pm] INFO: A client connected to the home namespace.
+[06/12/17, 11:01:19 pm] INFO: A client has disconnected from the home namespace
+[06/12/17, 11:01:19 pm] INFO: marco connected to room: /room2; Serving back room data.
+[06/12/17, 11:01:19 pm] INFO: Notifying Room 2 users of new user join
+[06/12/17, 11:01:53 pm] INFO: A client connected to the home namespace.
+[06/12/17, 11:02:00 pm] INFO: A client has disconnected from the home namespace
+[06/12/17, 11:02:00 pm] INFO: caius connected to room: /room2; Serving back room data.
+[06/12/17, 11:02:00 pm] INFO: Notifying Room 2 users of new user join
+[06/12/17, 11:07:59 pm] INFO: marco has disconnected from Room 2
+[06/12/17, 11:07:59 pm] INFO: Notifying Room 2 users of new user join
+[06/12/17, 11:07:59 pm] INFO: A client connected to the home namespace.
+[06/12/17, 11:08:18 pm] INFO: A client has disconnected from the home namespace
+[06/12/17, 11:08:18 pm] INFO: William connected to room: /room1; Serving back room data.
+[06/12/17, 11:08:18 pm] INFO: Notifying Room 1 users of new user join
+[06/12/17, 11:08:34 pm] INFO: Zuza has disconnected from Room 1
+[06/12/17, 11:08:34 pm] INFO: Notifying Room 1 users of new user join
+[06/12/17, 11:08:38 pm] INFO: Jack has disconnected from Room 1
+[06/12/17, 11:08:38 pm] INFO: Notifying Room 1 users of new user join
