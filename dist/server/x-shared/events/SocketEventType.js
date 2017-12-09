@@ -7,6 +7,8 @@ class SocketClientEvents {
         this.registration = 'client.registration';
         this.disconnect = 'client.disconnect';
         this.disconnected = 'client.disconnected';
+        this.chatRequest = 'client.chat.request';
+        this.chatRequestResponse = 'client.chat-request.response';
     }
 }
 class SocketMessageEvents {
@@ -19,6 +21,7 @@ class SocketRoomEvents {
     constructor() {
         this.requestList = 'rooms.request.list';
         this.responseList = 'rooms.response.list';
+        //  Deprecated
         this.roomData = 'room.data';
     }
 }

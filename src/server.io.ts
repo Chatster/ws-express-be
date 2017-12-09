@@ -20,6 +20,8 @@ import { SocketUser } from './x-shared/entities/SocketUser.entity';
 import { Logger } from './helpers/Logger.helper';
 import { ArgsReader } from './core/ArgsReader.core';
 import { ClientRegistrationDTO } from './x-shared/dtos/ClientRegistration.dto';
+import { ChatRequestDTO } from './x-shared/dtos/ChatRequest.dto';
+import { ChatRequestResponseDTO } from './x-shared/dtos/ChatRequestResponse.dto';
 
 export class ChatsterServerIO {
     //  Socket and server stuff
@@ -97,6 +99,22 @@ export class ChatsterServerIO {
 
                     socket.on(SocketEventType.client.registration, (data: ClientRegistrationDTO) => {
                         this.serveRoomData(socket, nsp, data.username);
+                    });
+
+                    //  When a chat request arrives, find the socketUser that is the receiver and send an event ONLY to him
+                    socket.on(SocketEventType.client.chatRequest, (data: ChatRequestDTO) => {
+                        Logger.info(`A chat request has arrived fromSockId: [${data.fromSockId}] to sockId: [${data.toSockId}]`);
+                        const room = this.roomsManager.getRoomByUserSocketId(data.fromSockId);
+                        const receiverUser = room.users.find(usr => usr.socket.id === data.toSockId);
+                        receiverUser.socket.emit(SocketEventType.client.chatRequest, data);
+                    });
+
+                    //  When a chat request response arrives, find the socketUser that is the receiver and send an event ONLY to him
+                    socket.on(SocketEventType.client.chatRequestResponse, (data: ChatRequestResponseDTO) => {
+                        Logger.info(`A chat request response has arrived fromSockId: [${data.fromSockId}] to sockId: [${data.toSockId}] with status: ${data.accepted ? 'ACCEPTED' : 'DENIED'}`);
+                        const room = this.roomsManager.getRoomByUserSocketId(data.fromSockId);
+                        const receiverUser = room.users.find(usr => usr.socket.id === data.fromSockId);
+                        receiverUser.socket.emit(SocketEventType.client.chatRequestResponse, data);
                     });
 
                     //  On user disconnect from room

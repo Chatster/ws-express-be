@@ -64,6 +64,20 @@ class ChatsterServerIO {
                 socket.on(SocketEventType_1.SocketEventType.client.registration, (data) => {
                     this.serveRoomData(socket, nsp, data.username);
                 });
+                //  When a chat request arrives, find the socketUser that is the receiver and send an event ONLY to him
+                socket.on(SocketEventType_1.SocketEventType.client.chatRequest, (data) => {
+                    Logger_helper_1.Logger.info(`A chat request has arrived fromSockId: [${data.fromSockId}] to sockId: [${data.toSockId}]`);
+                    const room = this.roomsManager.getRoomByUserSocketId(data.fromSockId);
+                    const receiverUser = room.users.find(usr => usr.socket.id === data.toSockId);
+                    receiverUser.socket.emit(SocketEventType_1.SocketEventType.client.chatRequest, data);
+                });
+                //  When a chat request response arrives, find the socketUser that is the receiver and send an event ONLY to him
+                socket.on(SocketEventType_1.SocketEventType.client.chatRequestResponse, (data) => {
+                    Logger_helper_1.Logger.info(`A chat request response has arrived fromSockId: [${data.fromSockId}] to sockId: [${data.toSockId}] with status: ${data.accepted ? 'ACCEPTED' : 'DENIED'}`);
+                    const room = this.roomsManager.getRoomByUserSocketId(data.fromSockId);
+                    const receiverUser = room.users.find(usr => usr.socket.id === data.fromSockId);
+                    receiverUser.socket.emit(SocketEventType_1.SocketEventType.client.chatRequestResponse, data);
+                });
                 //  On user disconnect from room
                 socket.on(SocketEventType_1.SocketEventType.disconnect, () => {
                     const room = this.roomsManager.getRoomByUserSocketId(socket.id);

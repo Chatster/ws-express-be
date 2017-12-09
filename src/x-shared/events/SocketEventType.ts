@@ -6,6 +6,9 @@ class SocketClientEvents {
 
     public disconnect = 'client.disconnect';
     public disconnected = 'client.disconnected';
+
+    public chatRequest = 'client.chat.request';
+    public chatRequestResponse = 'client.chat-request.response';
 }
 
 class SocketMessageEvents {
@@ -17,6 +20,7 @@ class SocketRoomEvents {
     public requestList = 'rooms.request.list';
     public responseList = 'rooms.response.list';
 
+    //  Deprecated
     public roomData = 'room.data';
 }
 
