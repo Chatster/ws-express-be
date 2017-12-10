@@ -4,7 +4,8 @@
     "description": "Chatster's node + express and ws socket backend",
     "main": "dist/index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "tsc && node dist/server/server.io.js"
     },
     "author": "Caius Citiriga AKA MXN",
     "license": "MIT",
