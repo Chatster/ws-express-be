@@ -78,6 +78,13 @@ class ChatsterServerIO {
                     const receiverUser = room.users.find(usr => usr.socket.id === data.fromSockId);
                     receiverUser.socket.emit(SocketEventType_1.SocketEventType.client.chatRequestResponse, data);
                 });
+                //  When a new message from the client socket needs to be delivered to another socket
+                socket.on(SocketEventType_1.SocketEventType.message.send, (data) => {
+                    const room = this.roomsManager.getRoomByUserSocketId(data.fromSockId);
+                    const receiverUser = room.users.find(usr => usr.socket.id === data.toSockId);
+                    receiverUser.socket.emit(SocketEventType_1.SocketEventType.message.newMessage, data);
+                    Logger_helper_1.Logger.info(`A new message from ${data.fromUsername} to ${data.toUsername} has been dispatched`);
+                });
                 //  On user disconnect from room
                 socket.on(SocketEventType_1.SocketEventType.disconnect, () => {
                     const room = this.roomsManager.getRoomByUserSocketId(socket.id);

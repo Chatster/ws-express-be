@@ -39,3 +39,1074 @@
 [06/12/17, 11:08:34 pm] INFO: Notifying Room 1 users of new user join
 [06/12/17, 11:08:38 pm] INFO: Jack has disconnected from Room 1
 [06/12/17, 11:08:38 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 1:43:07 am] INFO: Server started on port 4000
+[10/12/17, 1:43:32 am] INFO: A client connected to the home namespace.
+[10/12/17, 1:43:37 am] INFO: A client has disconnected from the home namespace
+[10/12/17, 1:43:37 am] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 1:43:37 am] INFO: Notifying Room 1 users of new user join
+[10/12/17, 1:43:42 am] INFO: A client connected to the home namespace.
+[10/12/17, 1:43:47 am] INFO: A client has disconnected from the home namespace
+[10/12/17, 1:43:47 am] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 1:43:47 am] INFO: Notifying Room 1 users of new user join
+[10/12/17, 1:43:52 am] INFO: A chat request has arrived fromSockId: [/room1#nujrYoqf7O0k0ypLAAAA] to sockId: [/room1#JxO1A6jlqJoKeZdrAAAB]
+[10/12/17, 1:43:57 am] INFO: A chat request response has arrived fromSockId: [/room1#nujrYoqf7O0k0ypLAAAA] to sockId: [/room1#JxO1A6jlqJoKeZdrAAAB] with status: ACCEPTED
+[10/12/17, 1:44:11 am] INFO: A chat request has arrived fromSockId: [/room1#nujrYoqf7O0k0ypLAAAA] to sockId: [/room1#JxO1A6jlqJoKeZdrAAAB]
+[10/12/17, 1:44:16 am] INFO: A chat request response has arrived fromSockId: [/room1#nujrYoqf7O0k0ypLAAAA] to sockId: [/room1#JxO1A6jlqJoKeZdrAAAB] with status: DENIED
+[10/12/17, 1:44:52 am] INFO: Maxine has disconnected from Room 1
+[10/12/17, 1:44:52 am] INFO: Notifying Room 1 users of new user join
+[10/12/17, 1:44:53 am] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 1:44:53 am] INFO: Notifying Room 1 users of new user join
+[10/12/17, 1:44:55 am] INFO: A chat request has arrived fromSockId: [/room1#469oqEcn7C5l4Po7AAAC] to sockId: [/room1#JxO1A6jlqJoKeZdrAAAB]
+[10/12/17, 1:44:59 am] INFO: A chat request response has arrived fromSockId: [/room1#469oqEcn7C5l4Po7AAAC] to sockId: [/room1#JxO1A6jlqJoKeZdrAAAB] with status: DENIED
+[10/12/17, 1:45:36 am] INFO: A chat request has arrived fromSockId: [/room1#JxO1A6jlqJoKeZdrAAAB] to sockId: [/room1#469oqEcn7C5l4Po7AAAC]
+[10/12/17, 1:45:38 am] INFO: A chat request response has arrived fromSockId: [/room1#JxO1A6jlqJoKeZdrAAAB] to sockId: [/room1#469oqEcn7C5l4Po7AAAC] with status: ACCEPTED
+[10/12/17, 1:48:09 am] INFO: Maxine has disconnected from Room 1
+[10/12/17, 1:48:09 am] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:35:06 am] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:35:06 am] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:34:06 pm] INFO: Server started on port 4000
+[10/12/17, 2:34:32 pm] INFO: A client connected to the home namespace.
+[10/12/17, 2:34:49 pm] INFO: A client connected to the home namespace.
+[10/12/17, 2:34:50 pm] INFO: A client has disconnected from the home namespace
+[10/12/17, 2:35:08 pm] INFO: A client has disconnected from the home namespace
+[10/12/17, 2:35:08 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 2:35:08 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:35:18 pm] INFO: A client connected to the home namespace.
+[10/12/17, 2:35:22 pm] INFO: A client has disconnected from the home namespace
+[10/12/17, 2:35:22 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 2:35:22 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:47:04 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 2:47:04 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:47:04 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 2:47:04 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:47:06 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 2:47:06 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:47:06 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 2:47:06 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:47:35 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 2:47:35 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:47:35 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 2:47:35 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:47:37 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 2:47:37 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:47:37 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 2:47:37 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:50:36 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 2:50:36 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:50:36 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 2:50:36 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:50:38 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 2:50:38 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:50:38 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 2:50:38 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:50:43 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 2:50:43 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:50:43 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 2:50:43 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:50:45 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 2:50:45 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:50:45 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 2:50:45 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:51:13 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 2:51:13 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:51:13 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 2:51:13 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:51:15 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 2:51:15 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:51:15 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 2:51:15 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:52:42 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 2:52:42 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:52:42 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 2:52:42 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:52:44 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 2:52:44 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:52:44 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 2:52:44 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:52:54 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 2:52:54 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:52:54 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 2:52:54 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:52:57 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 2:52:57 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:52:57 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 2:52:57 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:54:18 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 2:54:18 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:54:18 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 2:54:18 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:54:20 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 2:54:20 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:54:20 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 2:54:20 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:55:15 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 2:55:15 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:55:15 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 2:55:15 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:55:17 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 2:55:17 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 2:55:17 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 2:55:17 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:00:24 pm] INFO: Server started on port 4000
+[10/12/17, 3:00:24 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:00:24 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:00:26 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:00:26 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:00:30 pm] INFO: A client connected to the home namespace.
+[10/12/17, 3:00:32 pm] INFO: A client connected to the home namespace.
+[10/12/17, 3:00:34 pm] INFO: Server started on port 4000
+[10/12/17, 3:00:34 pm] INFO: A client connected to the home namespace.
+[10/12/17, 3:00:35 pm] INFO: A client connected to the home namespace.
+[10/12/17, 3:00:45 pm] INFO: A client has disconnected from the home namespace
+[10/12/17, 3:00:45 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:00:45 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:00:51 pm] INFO: A client has disconnected from the home namespace
+[10/12/17, 3:00:51 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:00:51 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:00:53 pm] INFO: A chat request has arrived fromSockId: [/room1#7omdz4wzgTjBmmVpAAAD] to sockId: [/room1#ZjgIXmkSJVhU177zAAAC]
+[10/12/17, 3:00:57 pm] INFO: A chat request response has arrived fromSockId: [/room1#7omdz4wzgTjBmmVpAAAD] to sockId: [/room1#ZjgIXmkSJVhU177zAAAC] with status: ACCEPTED
+[10/12/17, 3:01:02 pm] INFO: A new message from null to GioGio has been dispatched
+[10/12/17, 3:02:10 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:02:10 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:02:11 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:02:11 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:02:12 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:02:12 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:02:13 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:02:13 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:02:34 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:02:34 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:02:35 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:02:35 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:02:36 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:02:36 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:02:37 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:02:37 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:02:37 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:02:37 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:02:39 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:02:39 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:02:39 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:02:39 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:02:41 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:02:41 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:02:42 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:02:42 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:02:43 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:02:43 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:02:55 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:02:55 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:02:56 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:02:56 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:02:57 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:02:57 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:02:58 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:02:58 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:03:05 pm] INFO: A chat request has arrived fromSockId: [/room1#4qcTMsuCXajG9xLMAAAM] to sockId: [/room1#T7XgRFXLB8lGP41IAAAL]
+[10/12/17, 3:03:08 pm] INFO: A chat request response has arrived fromSockId: [/room1#4qcTMsuCXajG9xLMAAAM] to sockId: [/room1#T7XgRFXLB8lGP41IAAAL] with status: ACCEPTED
+[10/12/17, 3:03:16 pm] INFO: A new message from null to Maxine has been dispatched
+[10/12/17, 3:03:32 pm] INFO: A new message from null to Maxine has been dispatched
+[10/12/17, 3:04:47 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:04:47 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:04:48 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:04:48 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:04:49 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:04:49 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:04:52 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:04:52 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:04:54 pm] INFO: A chat request has arrived fromSockId: [/room1#LbTc7hg7yGXlReLHAAAO] to sockId: [/room1#9dUC0oBGYOea4UqsAAAN]
+[10/12/17, 3:05:01 pm] INFO: A chat request response has arrived fromSockId: [/room1#LbTc7hg7yGXlReLHAAAO] to sockId: [/room1#9dUC0oBGYOea4UqsAAAN] with status: DENIED
+[10/12/17, 3:05:53 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:05:53 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:05:54 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:05:54 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:05:55 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:05:55 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:05:56 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:05:56 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:06:26 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:06:26 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:06:27 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:06:27 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:06:28 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:06:28 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:06:29 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:06:29 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:06:40 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:06:40 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:06:40 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:06:40 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:06:42 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:06:42 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:06:43 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:06:43 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:07:49 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:07:49 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:07:49 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:07:49 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:07:51 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:07:51 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:07:52 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:07:52 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:08:51 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:08:51 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:08:52 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:08:52 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:08:53 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:08:53 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:08:54 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:08:54 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:10:53 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:10:53 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:10:53 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:10:53 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:10:55 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:10:55 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:10:56 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:10:56 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:11:03 pm] INFO: A chat request has arrived fromSockId: [/room1#YQr7cICS3bKaT7CyAAAZ] to sockId: [/room1#mTkRy_AhkSAgGcxTAAAa]
+[10/12/17, 3:11:10 pm] INFO: A chat request response has arrived fromSockId: [/room1#YQr7cICS3bKaT7CyAAAZ] to sockId: [/room1#mTkRy_AhkSAgGcxTAAAa] with status: DENIED
+[10/12/17, 3:11:18 pm] INFO: A chat request has arrived fromSockId: [/room1#mTkRy_AhkSAgGcxTAAAa] to sockId: [/room1#YQr7cICS3bKaT7CyAAAZ]
+[10/12/17, 3:11:31 pm] INFO: A chat request response has arrived fromSockId: [/room1#mTkRy_AhkSAgGcxTAAAa] to sockId: [/room1#YQr7cICS3bKaT7CyAAAZ] with status: DENIED
+[10/12/17, 3:14:57 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:14:57 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:14:58 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:14:58 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:14:59 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:14:59 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:15:00 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:15:00 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:15:08 pm] INFO: A chat request has arrived fromSockId: [/room1#wmpMXKIPvAAHS9jwAAAb] to sockId: [/room1#-zh3uYG8Id9NVz4dAAAc]
+[10/12/17, 3:15:11 pm] INFO: A chat request response has arrived fromSockId: [/room1#wmpMXKIPvAAHS9jwAAAb] to sockId: [/room1#-zh3uYG8Id9NVz4dAAAc] with status: ACCEPTED
+[10/12/17, 3:15:20 pm] INFO: A new message from null to Maxine has been dispatched
+[10/12/17, 3:15:41 pm] INFO: A new message from null to Maxine has been dispatched
+[10/12/17, 3:17:01 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:17:01 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:17:06 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:17:06 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:17:09 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:17:09 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:17:10 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:17:10 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:17:10 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:17:10 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:17:11 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:17:11 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:17:15 pm] INFO: A chat request has arrived fromSockId: [/room1#AHgz2Os4ZM9ZGm4SAAAe] to sockId: [/room1#Ozu1wM45Hrf4hgN_AAAf]
+[10/12/17, 3:17:18 pm] INFO: A chat request response has arrived fromSockId: [/room1#AHgz2Os4ZM9ZGm4SAAAe] to sockId: [/room1#Ozu1wM45Hrf4hgN_AAAf] with status: ACCEPTED
+[10/12/17, 3:17:22 pm] INFO: A new message from null to Maxine has been dispatched
+[10/12/17, 3:18:25 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:18:25 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:18:26 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:18:26 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:18:27 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:18:27 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:18:28 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:18:28 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:18:33 pm] INFO: A chat request has arrived fromSockId: [/room1#1VDYGEOu9BGFKxilAAAg] to sockId: [/room1#jbLZlXPwXfsZiTrbAAAh]
+[10/12/17, 3:18:36 pm] INFO: A chat request response has arrived fromSockId: [/room1#1VDYGEOu9BGFKxilAAAg] to sockId: [/room1#jbLZlXPwXfsZiTrbAAAh] with status: ACCEPTED
+[10/12/17, 3:18:43 pm] INFO: A new message from null to Maxine has been dispatched
+[10/12/17, 3:19:02 pm] INFO: A new message from null to Maxine has been dispatched
+[10/12/17, 3:19:24 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:19:24 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:19:26 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:19:26 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:19:26 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:19:26 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:19:28 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:19:28 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:19:30 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:19:30 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:19:30 pm] INFO: A client connected to the home namespace.
+[10/12/17, 3:19:31 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:19:31 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:19:31 pm] INFO: A client connected to the home namespace.
+[10/12/17, 3:19:34 pm] INFO: A client has disconnected from the home namespace
+[10/12/17, 3:19:36 pm] INFO: A client has disconnected from the home namespace
+[10/12/17, 3:19:36 pm] INFO: A client connected to the home namespace.
+[10/12/17, 3:19:38 pm] INFO: A client connected to the home namespace.
+[10/12/17, 3:19:48 pm] INFO: Server started on port 4000
+[10/12/17, 3:19:48 pm] INFO: A client connected to the home namespace.
+[10/12/17, 3:19:49 pm] INFO: A client connected to the home namespace.
+[10/12/17, 3:19:57 pm] INFO: A client has disconnected from the home namespace
+[10/12/17, 3:19:57 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:19:57 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:20:03 pm] INFO: A client has disconnected from the home namespace
+[10/12/17, 3:20:03 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:20:03 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:21:17 pm] INFO: A chat request has arrived fromSockId: [/room1#kPVR6mAEcFP2foryAAAA] to sockId: [/room1#qQFVoFAteJ0ZuWGLAAAB]
+[10/12/17, 3:21:20 pm] INFO: A chat request response has arrived fromSockId: [/room1#kPVR6mAEcFP2foryAAAA] to sockId: [/room1#qQFVoFAteJ0ZuWGLAAAB] with status: ACCEPTED
+[10/12/17, 3:21:23 pm] INFO: A new message from null to Maxine has been dispatched
+[10/12/17, 3:22:28 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:22:28 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:22:31 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:22:31 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:22:34 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:22:34 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:22:36 pm] INFO: A client connected to the home namespace.
+[10/12/17, 3:22:39 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:22:39 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:22:41 pm] INFO: A client connected to the home namespace.
+[10/12/17, 3:22:46 pm] INFO: A client has disconnected from the home namespace
+[10/12/17, 3:22:46 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:22:46 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:22:51 pm] INFO: A client has disconnected from the home namespace
+[10/12/17, 3:22:51 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:22:51 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:22:54 pm] INFO: A chat request has arrived fromSockId: [/room1#Sb5PtcEkceKpcwLaAAAD] to sockId: [/room1#-fEEquqphVZ7OFglAAAE]
+[10/12/17, 3:22:57 pm] INFO: A chat request response has arrived fromSockId: [/room1#Sb5PtcEkceKpcwLaAAAD] to sockId: [/room1#-fEEquqphVZ7OFglAAAE] with status: ACCEPTED
+[10/12/17, 3:23:01 pm] INFO: A new message from null to Maxine has been dispatched
+[10/12/17, 3:25:21 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:25:21 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:25:21 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:25:21 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:25:23 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:25:23 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:25:24 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:25:24 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:25:28 pm] INFO: A chat request has arrived fromSockId: [/room1#uWVYaC-0LFNBLPUrAAAF] to sockId: [/room1#2S-UrbNJNRdZQSOoAAAG]
+[10/12/17, 3:25:30 pm] INFO: A chat request response has arrived fromSockId: [/room1#uWVYaC-0LFNBLPUrAAAF] to sockId: [/room1#2S-UrbNJNRdZQSOoAAAG] with status: ACCEPTED
+[10/12/17, 3:25:34 pm] INFO: A new message from null to Maxine has been dispatched
+[10/12/17, 3:25:46 pm] INFO: A new message from null to Maxine has been dispatched
+[10/12/17, 3:26:15 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:26:15 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:26:16 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:26:16 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:26:40 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:26:40 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:26:41 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:26:41 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:26:42 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:26:42 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:26:42 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:26:42 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:26:44 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:26:44 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:26:45 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:26:45 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:26:48 pm] INFO: A chat request has arrived fromSockId: [/room1#O-h6GFeYz9-PGtYHAAAJ] to sockId: [/room1#hLCb-t7VV8oRAgxhAAAK]
+[10/12/17, 3:26:51 pm] INFO: A chat request response has arrived fromSockId: [/room1#O-h6GFeYz9-PGtYHAAAJ] to sockId: [/room1#hLCb-t7VV8oRAgxhAAAK] with status: ACCEPTED
+[10/12/17, 3:26:55 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 3:27:20 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 3:27:58 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 3:29:32 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 3:30:55 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:30:55 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:30:56 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:30:56 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:30:58 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:30:58 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:30:59 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:30:59 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:31:02 pm] INFO: A chat request has arrived fromSockId: [/room1#w0FoQahUu_CxWs46AAAL] to sockId: [/room1#mHXI5luS_m37s9RyAAAM]
+[10/12/17, 3:31:05 pm] INFO: A chat request response has arrived fromSockId: [/room1#w0FoQahUu_CxWs46AAAL] to sockId: [/room1#mHXI5luS_m37s9RyAAAM] with status: ACCEPTED
+[10/12/17, 3:31:11 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 3:31:35 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:31:35 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:31:51 pm] INFO: Server started on port 4000
+[10/12/17, 3:31:55 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:31:55 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:31:55 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:31:55 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:31:55 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:31:55 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:31:57 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:31:57 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:32:02 pm] INFO: A chat request has arrived fromSockId: [/room1#bcH8uV892mCz5azYAAAA] to sockId: [/room1#cP3Fc3AvkNdgcGg8AAAC]
+[10/12/17, 3:32:05 pm] INFO: A chat request response has arrived fromSockId: [/room1#bcH8uV892mCz5azYAAAA] to sockId: [/room1#cP3Fc3AvkNdgcGg8AAAC] with status: ACCEPTED
+[10/12/17, 3:32:13 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 3:32:48 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 3:33:37 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:33:37 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:33:37 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:33:37 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:33:39 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:33:39 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:33:40 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:33:40 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:33:42 pm] INFO: A chat request has arrived fromSockId: [/room1#4mY1Q6fOG2N6gjNyAAAD] to sockId: [/room1#AY8icHOqdx3K5BmvAAAE]
+[10/12/17, 3:33:49 pm] INFO: A chat request response has arrived fromSockId: [/room1#4mY1Q6fOG2N6gjNyAAAD] to sockId: [/room1#AY8icHOqdx3K5BmvAAAE] with status: ACCEPTED
+[10/12/17, 3:33:55 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 3:34:11 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 3:34:34 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:34:34 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:34:34 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:34:34 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:34:36 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:34:36 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:34:37 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:34:37 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:34:38 pm] INFO: A chat request has arrived fromSockId: [/room1#Cigma2Q2WCuoWUCoAAAF] to sockId: [/room1#r71SmTjRUZbtUdZbAAAG]
+[10/12/17, 3:34:43 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 3:34:47 pm] INFO: A chat request response has arrived fromSockId: [/room1#Cigma2Q2WCuoWUCoAAAF] to sockId: [/room1#r71SmTjRUZbtUdZbAAAG] with status: ACCEPTED
+[10/12/17, 3:36:21 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:36:21 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:36:21 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:36:21 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:36:23 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:36:23 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:36:24 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:36:24 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:36:25 pm] INFO: A chat request has arrived fromSockId: [/room1#kXq3U8abwawPAIc0AAAH] to sockId: [/room1#EqXd4Y0ggsaXN_j8AAAI]
+[10/12/17, 3:36:27 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 3:37:17 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:37:17 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:37:17 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:37:17 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:37:19 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:37:19 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:37:19 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:37:19 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:37:21 pm] INFO: A chat request has arrived fromSockId: [/room1#GCqeUBKy87_HjaNvAAAJ] to sockId: [/room1#GSEpiBx6M4o6el1nAAAK]
+[10/12/17, 3:37:23 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 3:37:49 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:37:49 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:37:49 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:37:49 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:37:51 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:37:51 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:37:52 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:37:52 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:37:53 pm] INFO: A chat request has arrived fromSockId: [/room1#u2pWG5KvRnJe8ETtAAAL] to sockId: [/room1#lViCfKclf0eHNfiTAAAM]
+[10/12/17, 3:37:55 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 3:39:00 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:39:00 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:39:01 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:39:01 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:39:03 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:39:03 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:39:04 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:39:04 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:39:05 pm] INFO: A chat request has arrived fromSockId: [/room1#I_Fl4W8wtbmhj15dAAAN] to sockId: [/room1#tPb4jv9GcX1IAtyLAAAO]
+[10/12/17, 3:39:06 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 3:39:13 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:39:13 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:39:14 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:39:14 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:39:15 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:39:15 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:39:16 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:39:16 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:39:25 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:39:25 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:39:25 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:39:25 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:39:27 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:39:27 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:39:27 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:39:27 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:39:55 pm] INFO: A chat request has arrived fromSockId: [/room1#cmEIZdSNKkP71dL6AAAR] to sockId: [/room1#29kq-e5kdRbXJMHzAAAS]
+[10/12/17, 3:39:59 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 3:40:03 pm] INFO: A chat request response has arrived fromSockId: [/room1#cmEIZdSNKkP71dL6AAAR] to sockId: [/room1#29kq-e5kdRbXJMHzAAAS] with status: ACCEPTED
+[10/12/17, 3:40:10 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 3:44:48 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:44:48 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:44:48 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:44:48 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:44:51 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:44:51 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:44:51 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:44:51 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:44:52 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:44:52 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:44:54 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:44:54 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:47:25 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:47:25 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:47:25 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:47:25 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:47:28 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:47:28 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:47:28 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:47:28 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:47:37 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:47:37 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:47:38 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:47:38 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:47:40 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:47:40 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:47:41 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:47:41 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:48:44 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:48:44 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:48:44 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:48:44 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:48:46 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:48:46 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:48:47 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:48:47 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:50:00 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:50:00 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:50:00 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:50:00 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:50:02 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:50:02 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:50:02 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:50:02 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:50:19 pm] INFO: A chat request has arrived fromSockId: [/room1#8_AzeQ7nktR02xnDAAAc] to sockId: [/room1#cLZVc0DVkzc0M6g2AAAd]
+[10/12/17, 3:50:24 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 3:50:48 pm] INFO: A chat request response has arrived fromSockId: [/room1#8_AzeQ7nktR02xnDAAAc] to sockId: [/room1#cLZVc0DVkzc0M6g2AAAd] with status: DENIED
+[10/12/17, 3:51:03 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:51:03 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:51:05 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:51:05 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:51:06 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:51:06 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:51:07 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:51:07 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:51:09 pm] INFO: A chat request has arrived fromSockId: [/room1#1KXwkj0IYK0deVVAAAAf] to sockId: [/room1#Xb3ooMvsGCsnSzKtAAAe]
+[10/12/17, 3:51:13 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 3:51:31 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:51:31 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:51:33 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:51:33 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:51:33 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:51:33 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:51:35 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:51:35 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:51:38 pm] INFO: A chat request has arrived fromSockId: [/room1#nfJX9SaH86xQSsr_AAAh] to sockId: [/room1#2KMyZ11KfXUyxz05AAAg]
+[10/12/17, 3:55:32 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:55:32 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:55:32 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:55:32 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:55:36 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:55:36 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:55:36 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:55:36 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:56:46 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:56:46 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:56:46 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:56:46 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:56:49 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:56:49 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:56:49 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:56:49 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:58:00 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 3:58:00 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:58:00 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:58:00 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:58:02 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:58:02 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:58:03 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:58:03 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:58:17 pm] INFO: A chat request has arrived fromSockId: [/room1#powxDrPcovpBVjbXAAAn] to sockId: [/room1#wYOcn2gJcpOs-2d3AAAm]
+[10/12/17, 3:58:31 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 3:58:31 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:58:32 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:58:32 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:58:33 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:58:33 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:58:40 pm] INFO: Server started on port 4000
+[10/12/17, 3:58:40 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:58:40 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:58:42 pm] INFO: A client connected to the home namespace.
+[10/12/17, 3:58:42 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:58:42 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:58:43 pm] INFO: A client connected to the home namespace.
+[10/12/17, 3:58:44 pm] INFO: A client has disconnected from the home namespace
+[10/12/17, 3:58:47 pm] INFO: Server started on port 4000
+[10/12/17, 3:58:47 pm] INFO: A client connected to the home namespace.
+[10/12/17, 3:58:48 pm] INFO: A client connected to the home namespace.
+[10/12/17, 3:58:48 pm] INFO: A client has disconnected from the home namespace
+[10/12/17, 3:58:50 pm] INFO: A client has disconnected from the home namespace
+[10/12/17, 3:58:50 pm] INFO: A client connected to the home namespace.
+[10/12/17, 3:58:52 pm] INFO: A client connected to the home namespace.
+[10/12/17, 3:58:53 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 3:58:53 pm] INFO: A client has disconnected from the home namespace
+[10/12/17, 3:58:53 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:58:58 pm] INFO: A client has disconnected from the home namespace
+[10/12/17, 3:58:58 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 3:58:58 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 3:59:13 pm] INFO: A chat request has arrived fromSockId: [/room1#aRugkY7dBWrnjw50AAAC] to sockId: [/room1#IPhIH823BvwuFoxdAAAD]
+[10/12/17, 4:00:02 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 4:00:29 pm] INFO: A chat request response has arrived fromSockId: [/room1#aRugkY7dBWrnjw50AAAC] to sockId: [/room1#IPhIH823BvwuFoxdAAAD] with status: ACCEPTED
+[10/12/17, 4:03:48 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:03:48 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:03:48 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:03:48 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:03:52 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:03:52 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:03:52 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:03:52 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:04:04 pm] INFO: A chat request has arrived fromSockId: [/room1#p9-1aFOvZzXzlLWlAAAE] to sockId: [/room1#qZeL_mhx6O28P9SCAAAF]
+[10/12/17, 4:04:10 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 4:04:15 pm] INFO: A chat request response has arrived fromSockId: [/room1#p9-1aFOvZzXzlLWlAAAE] to sockId: [/room1#qZeL_mhx6O28P9SCAAAF] with status: ACCEPTED
+[10/12/17, 4:04:29 pm] INFO: A chat request has arrived fromSockId: [/room1#p9-1aFOvZzXzlLWlAAAE] to sockId: [/room1#qZeL_mhx6O28P9SCAAAF]
+[10/12/17, 4:04:36 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 4:04:48 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 4:04:58 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 4:05:03 pm] INFO: A chat request response has arrived fromSockId: [/room1#p9-1aFOvZzXzlLWlAAAE] to sockId: [/room1#qZeL_mhx6O28P9SCAAAF] with status: ACCEPTED
+[10/12/17, 4:05:22 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 4:05:43 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 4:06:23 pm] INFO: A client connected to the home namespace.
+[10/12/17, 4:06:29 pm] INFO: A client has disconnected from the home namespace
+[10/12/17, 4:06:29 pm] INFO: Jack connected to room: /room1; Serving back room data.
+[10/12/17, 4:06:29 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:06:47 pm] INFO: A client connected to the home namespace.
+[10/12/17, 4:06:54 pm] INFO: A client has disconnected from the home namespace
+[10/12/17, 4:06:54 pm] INFO: GianGioggio connected to room: /room1; Serving back room data.
+[10/12/17, 4:06:54 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:07:08 pm] INFO: A chat request has arrived fromSockId: [/room1#vjl3OeKdlJRTZF62AAAG] to sockId: [/room1#eWLabJ8Of-N2m-cQAAAH]
+[10/12/17, 4:07:18 pm] INFO: A new message from Jack to GianGioggio has been dispatched
+[10/12/17, 4:07:23 pm] INFO: A new message from Jack to GianGioggio has been dispatched
+[10/12/17, 4:07:25 pm] INFO: A chat request response has arrived fromSockId: [/room1#vjl3OeKdlJRTZF62AAAG] to sockId: [/room1#eWLabJ8Of-N2m-cQAAAH] with status: ACCEPTED
+[10/12/17, 4:07:29 pm] INFO: A chat request has arrived fromSockId: [/room1#eWLabJ8Of-N2m-cQAAAH] to sockId: [/room1#qZeL_mhx6O28P9SCAAAF]
+[10/12/17, 4:07:37 pm] INFO: A new message from GianGioggio to GioGio has been dispatched
+[10/12/17, 4:07:47 pm] INFO: A new message from GianGioggio to GioGio has been dispatched
+[10/12/17, 4:07:49 pm] INFO: A chat request response has arrived fromSockId: [/room1#eWLabJ8Of-N2m-cQAAAH] to sockId: [/room1#qZeL_mhx6O28P9SCAAAF] with status: ACCEPTED
+[10/12/17, 4:07:58 pm] INFO: A new message from GioGio to GianGioggio has been dispatched
+[10/12/17, 4:08:09 pm] INFO: A new message from GianGioggio to GioGio has been dispatched
+[10/12/17, 4:08:39 pm] INFO: A new message from GianGioggio to Jack has been dispatched
+[10/12/17, 4:09:49 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:09:49 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:09:49 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:09:49 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:09:49 pm] INFO: GianGioggio has disconnected from Room 1
+[10/12/17, 4:09:49 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:09:49 pm] INFO: Jack has disconnected from Room 1
+[10/12/17, 4:09:49 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:09:52 pm] INFO: Jack connected to room: /room1; Serving back room data.
+[10/12/17, 4:09:52 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:09:52 pm] INFO: GianGioggio connected to room: /room1; Serving back room data.
+[10/12/17, 4:09:52 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:09:54 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:09:54 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:09:55 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:09:55 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:10:58 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:10:58 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:10:58 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:10:58 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:10:58 pm] INFO: GianGioggio has disconnected from Room 1
+[10/12/17, 4:10:58 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:10:58 pm] INFO: Jack has disconnected from Room 1
+[10/12/17, 4:10:58 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:00 pm] INFO: Jack connected to room: /room1; Serving back room data.
+[10/12/17, 4:11:00 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:00 pm] INFO: GianGioggio connected to room: /room1; Serving back room data.
+[10/12/17, 4:11:00 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:02 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:11:02 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:02 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:11:02 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:20 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:11:20 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:20 pm] INFO: GianGioggio has disconnected from Room 1
+[10/12/17, 4:11:20 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:20 pm] INFO: Jack has disconnected from Room 1
+[10/12/17, 4:11:20 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:20 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:11:20 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:22 pm] INFO: Jack connected to room: /room1; Serving back room data.
+[10/12/17, 4:11:22 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:22 pm] INFO: GianGioggio connected to room: /room1; Serving back room data.
+[10/12/17, 4:11:22 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:24 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:11:24 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:24 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:11:24 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:33 pm] INFO: GianGioggio has disconnected from Room 1
+[10/12/17, 4:11:33 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:33 pm] INFO: Jack has disconnected from Room 1
+[10/12/17, 4:11:33 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:33 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:11:33 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:33 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:11:33 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:35 pm] INFO: Jack connected to room: /room1; Serving back room data.
+[10/12/17, 4:11:35 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:35 pm] INFO: GianGioggio connected to room: /room1; Serving back room data.
+[10/12/17, 4:11:35 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:36 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:11:36 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:36 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:11:36 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:11:39 pm] INFO: A chat request has arrived fromSockId: [/room1#pp0-5VfQH-PoOcFkAAAV] to sockId: [/room1#jDYztYlj_9NKnNCmAAAU]
+[10/12/17, 4:11:45 pm] INFO: A new message from GianGioggio to Jack has been dispatched
+[10/12/17, 4:14:49 pm] INFO: GianGioggio has disconnected from Room 1
+[10/12/17, 4:14:49 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:14:49 pm] INFO: Jack has disconnected from Room 1
+[10/12/17, 4:14:49 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:14:49 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:14:49 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:14:49 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:14:49 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:14:52 pm] INFO: Jack connected to room: /room1; Serving back room data.
+[10/12/17, 4:14:52 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:14:52 pm] INFO: GianGioggio connected to room: /room1; Serving back room data.
+[10/12/17, 4:14:52 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:14:53 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:14:53 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:14:54 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:14:54 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:15:18 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:15:18 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:15:18 pm] INFO: GianGioggio has disconnected from Room 1
+[10/12/17, 4:15:18 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:15:18 pm] INFO: Jack has disconnected from Room 1
+[10/12/17, 4:15:18 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:15:18 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:15:18 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:15:20 pm] INFO: Jack connected to room: /room1; Serving back room data.
+[10/12/17, 4:15:20 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:15:20 pm] INFO: GianGioggio connected to room: /room1; Serving back room data.
+[10/12/17, 4:15:20 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:15:21 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:15:21 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:15:22 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:15:22 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:16:04 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:16:04 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:16:05 pm] INFO: Jack has disconnected from Room 1
+[10/12/17, 4:16:05 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:16:05 pm] INFO: GianGioggio has disconnected from Room 1
+[10/12/17, 4:16:05 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:16:05 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:16:05 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:16:06 pm] INFO: Jack connected to room: /room1; Serving back room data.
+[10/12/17, 4:16:06 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:16:06 pm] INFO: GianGioggio connected to room: /room1; Serving back room data.
+[10/12/17, 4:16:06 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:16:07 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:16:07 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:16:08 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:16:08 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:16:10 pm] INFO: A chat request has arrived fromSockId: [/room1#6mhYUN2sdTeOKm-1AAAh] to sockId: [/room1#v0bjWQm9boYKeelWAAAg]
+[10/12/17, 4:16:31 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:16:31 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:16:31 pm] INFO: Jack has disconnected from Room 1
+[10/12/17, 4:16:31 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:16:31 pm] INFO: GianGioggio has disconnected from Room 1
+[10/12/17, 4:16:31 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:16:32 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:16:32 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:16:33 pm] INFO: Jack connected to room: /room1; Serving back room data.
+[10/12/17, 4:16:33 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:16:33 pm] INFO: GianGioggio connected to room: /room1; Serving back room data.
+[10/12/17, 4:16:33 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:16:34 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:16:34 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:16:35 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:16:35 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:16:37 pm] INFO: A chat request has arrived fromSockId: [/room1#oUSmsyg5KJRz8ilkAAAl] to sockId: [/room1#VH697EkkDBFILi3cAAAk]
+[10/12/17, 4:16:43 pm] INFO: A new message from GianGioggio to Jack has been dispatched
+[10/12/17, 4:16:49 pm] INFO: A chat request response has arrived fromSockId: [/room1#oUSmsyg5KJRz8ilkAAAl] to sockId: [/room1#VH697EkkDBFILi3cAAAk] with status: ACCEPTED
+[10/12/17, 4:16:53 pm] INFO: A chat request has arrived fromSockId: [/room1#oUSmsyg5KJRz8ilkAAAl] to sockId: [/room1#O4EavBhTNx_xTojYAAAm]
+[10/12/17, 4:17:03 pm] INFO: A new message from GianGioggio to GioGio has been dispatched
+[10/12/17, 4:17:07 pm] INFO: A chat request response has arrived fromSockId: [/room1#oUSmsyg5KJRz8ilkAAAl] to sockId: [/room1#O4EavBhTNx_xTojYAAAm] with status: DENIED
+[10/12/17, 4:18:17 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:18:17 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:18:17 pm] INFO: Jack has disconnected from Room 1
+[10/12/17, 4:18:17 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:18:17 pm] INFO: GianGioggio has disconnected from Room 1
+[10/12/17, 4:18:17 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:18:17 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:18:17 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:18:18 pm] INFO: Jack connected to room: /room1; Serving back room data.
+[10/12/17, 4:18:18 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:18:18 pm] INFO: GianGioggio connected to room: /room1; Serving back room data.
+[10/12/17, 4:18:18 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:18:20 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:18:20 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:18:20 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:18:20 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:19:37 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:19:37 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:19:37 pm] INFO: GianGioggio has disconnected from Room 1
+[10/12/17, 4:19:37 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:19:37 pm] INFO: Jack has disconnected from Room 1
+[10/12/17, 4:19:37 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:19:37 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:19:37 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:19:39 pm] INFO: GianGioggio connected to room: /room1; Serving back room data.
+[10/12/17, 4:19:39 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:19:39 pm] INFO: Jack connected to room: /room1; Serving back room data.
+[10/12/17, 4:19:39 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:19:40 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:19:40 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:19:41 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:19:41 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:19:57 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:19:57 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:19:57 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:19:57 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:19:57 pm] INFO: Jack has disconnected from Room 1
+[10/12/17, 4:19:57 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:19:57 pm] INFO: GianGioggio has disconnected from Room 1
+[10/12/17, 4:19:57 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:19:59 pm] INFO: Jack connected to room: /room1; Serving back room data.
+[10/12/17, 4:19:59 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:19:59 pm] INFO: GianGioggio connected to room: /room1; Serving back room data.
+[10/12/17, 4:19:59 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:20:00 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:20:00 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:20:00 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:20:00 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:20:09 pm] INFO: A chat request has arrived fromSockId: [/room1#YhJYTpd4OhXRv2onAAAx] to sockId: [/room1#UyPEGhJYn_OmXz0kAAAy]
+[10/12/17, 4:20:14 pm] INFO: A new message from GianGioggio to GioGio has been dispatched
+[10/12/17, 4:20:16 pm] INFO: A chat request response has arrived fromSockId: [/room1#YhJYTpd4OhXRv2onAAAx] to sockId: [/room1#UyPEGhJYn_OmXz0kAAAy] with status: DENIED
+[10/12/17, 4:20:36 pm] INFO: A new message from GioGio to GianGioggio has been dispatched
+[10/12/17, 4:20:47 pm] INFO: A chat request response has arrived fromSockId: [/room1#UyPEGhJYn_OmXz0kAAAy] to sockId: [/room1#YhJYTpd4OhXRv2onAAAx] with status: ACCEPTED
+[10/12/17, 4:20:51 pm] INFO: A new message from GioGio to GianGioggio has been dispatched
+[10/12/17, 4:21:01 pm] INFO: A new message from GioGio to GianGioggio has been dispatched
+[10/12/17, 4:21:27 pm] INFO: GianGioggio has disconnected from Room 1
+[10/12/17, 4:21:27 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:21:28 pm] INFO: Jack has disconnected from Room 1
+[10/12/17, 4:21:28 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:21:36 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:21:36 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:21:37 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:21:37 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:21:38 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:21:38 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:21:39 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:21:39 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:21:56 pm] INFO: Devin connected to room: /room1; Serving back room data.
+[10/12/17, 4:21:56 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:22:05 pm] INFO: A chat request has arrived fromSockId: [/room1#9mdS_aAs9JBWGfDaAAA1] to sockId: [/room1#LurCqZhh2xhsUu5jAAA0]
+[10/12/17, 4:22:13 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 4:22:16 pm] INFO: A chat request response has arrived fromSockId: [/room1#9mdS_aAs9JBWGfDaAAA1] to sockId: [/room1#LurCqZhh2xhsUu5jAAA0] with status: ACCEPTED
+[10/12/17, 4:22:26 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 4:22:52 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 4:23:54 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:23:54 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:24:08 pm] INFO: Devin has disconnected from Room 1
+[10/12/17, 4:24:08 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:24:08 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:24:08 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:24:11 pm] INFO: Devin connected to room: /room1; Serving back room data.
+[10/12/17, 4:24:11 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:24:11 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:24:11 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:24:12 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:24:12 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:24:18 pm] INFO: A chat request has arrived fromSockId: [/room1#8BSx0bSvO0CeI9iaAAA5] to sockId: [/room1#8VS5W2xPkyYfFQgKAAA4]
+[10/12/17, 4:24:25 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 4:24:28 pm] INFO: A chat request response has arrived fromSockId: [/room1#8BSx0bSvO0CeI9iaAAA5] to sockId: [/room1#8VS5W2xPkyYfFQgKAAA4] with status: ACCEPTED
+[10/12/17, 4:24:39 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 4:24:48 pm] INFO: A chat request response has arrived fromSockId: [/room1#8VS5W2xPkyYfFQgKAAA4] to sockId: [/room1#8BSx0bSvO0CeI9iaAAA5] with status: ACCEPTED
+[10/12/17, 4:25:13 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 4:25:24 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 4:26:36 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:26:36 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:26:52 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:26:52 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:26:57 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:26:57 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:26:59 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:26:59 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:27:00 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:27:00 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:27:01 pm] INFO: A chat request has arrived fromSockId: [/room1#QUeAkgWf4SKGp0x0AAA8] to sockId: [/room1#KVmsNwojcZDfJLaTAAA7]
+[10/12/17, 4:27:07 pm] INFO: A chat request response has arrived fromSockId: [/room1#QUeAkgWf4SKGp0x0AAA8] to sockId: [/room1#KVmsNwojcZDfJLaTAAA7] with status: ACCEPTED
+[10/12/17, 4:27:41 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 4:27:52 pm] INFO: A chat request response has arrived fromSockId: [/room1#KVmsNwojcZDfJLaTAAA7] to sockId: [/room1#QUeAkgWf4SKGp0x0AAA8] with status: ACCEPTED
+[10/12/17, 4:28:04 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 4:28:17 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:28:17 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:28:18 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 4:28:27 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:28:27 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:28:28 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:28:28 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:28:30 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:28:30 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:28:31 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:28:31 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:30:01 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:30:01 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:30:01 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:30:01 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:30:01 pm] INFO: Devin has disconnected from Room 1
+[10/12/17, 4:30:01 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:30:03 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:30:03 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:30:04 pm] INFO: Devin connected to room: /room1; Serving back room data.
+[10/12/17, 4:30:04 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:30:04 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:30:04 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:30:21 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:30:21 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:30:21 pm] INFO: Devin has disconnected from Room 1
+[10/12/17, 4:30:21 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:30:21 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:30:21 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:30:24 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:30:24 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:30:24 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:30:24 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:30:24 pm] INFO: Devin connected to room: /room1; Serving back room data.
+[10/12/17, 4:30:24 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:30:53 pm] INFO: Devin has disconnected from Room 1
+[10/12/17, 4:30:53 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:30:55 pm] INFO: Devin connected to room: /room1; Serving back room data.
+[10/12/17, 4:30:55 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:30:59 pm] INFO: A chat request has arrived fromSockId: [/room1#_1XAHp74CQfQKVA2AABC] to sockId: [/room1#flHK1PFY4rUQc3nbAABD]
+[10/12/17, 4:31:05 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 4:31:08 pm] INFO: A chat request response has arrived fromSockId: [/room1#_1XAHp74CQfQKVA2AABC] to sockId: [/room1#flHK1PFY4rUQc3nbAABD] with status: ACCEPTED
+[10/12/17, 4:31:25 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 4:32:31 pm] INFO: A chat request response has arrived fromSockId: [/room1#flHK1PFY4rUQc3nbAABD] to sockId: [/room1#_1XAHp74CQfQKVA2AABC] with status: ACCEPTED
+[10/12/17, 4:32:44 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 4:33:04 pm] INFO: A chat request response has arrived fromSockId: [/room1#flHK1PFY4rUQc3nbAABD] to sockId: [/room1#_1XAHp74CQfQKVA2AABC] with status: ACCEPTED
+[10/12/17, 4:33:12 pm] INFO: A new message from Maxine to GioGio has been dispatched
+[10/12/17, 4:33:22 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 4:33:29 pm] INFO: A chat request response has arrived fromSockId: [/room1#flHK1PFY4rUQc3nbAABD] to sockId: [/room1#_1XAHp74CQfQKVA2AABC] with status: DENIED
+[10/12/17, 4:33:35 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 4:37:49 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:37:49 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:37:49 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:37:49 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:37:49 pm] INFO: Devin has disconnected from Room 1
+[10/12/17, 4:37:49 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:37:51 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:37:51 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:37:52 pm] INFO: Devin connected to room: /room1; Serving back room data.
+[10/12/17, 4:37:52 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:38:23 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:38:23 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:38:25 pm] INFO: A chat request has arrived fromSockId: [/room1#cRPIGUsLmNwXY5sMAABI] to sockId: [/room1#kb1lXCSmChMaeQhwAABG]
+[10/12/17, 4:38:29 pm] INFO: A chat request response has arrived fromSockId: [/room1#cRPIGUsLmNwXY5sMAABI] to sockId: [/room1#kb1lXCSmChMaeQhwAABG] with status: ACCEPTED
+[10/12/17, 4:38:30 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 4:38:38 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 4:38:47 pm] INFO: A chat request response has arrived fromSockId: [/room1#kb1lXCSmChMaeQhwAABG] to sockId: [/room1#cRPIGUsLmNwXY5sMAABI] with status: DENIED
+[10/12/17, 4:38:52 pm] INFO: A new message from GioGio to Maxine has been dispatched
+[10/12/17, 4:40:00 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:40:00 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:40:00 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:40:00 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:40:00 pm] INFO: Devin has disconnected from Room 1
+[10/12/17, 4:40:00 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:40:02 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:40:02 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:40:03 pm] INFO: Devin connected to room: /room1; Serving back room data.
+[10/12/17, 4:40:03 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:40:03 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:40:03 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:40:05 pm] INFO: A chat request has arrived fromSockId: [/room1#OpQVvAqLoweGqTzdAABL] to sockId: [/room1#4RWqsXkkmhNabod9AABJ]
+[10/12/17, 4:40:08 pm] INFO: A chat request response has arrived fromSockId: [/room1#OpQVvAqLoweGqTzdAABL] to sockId: [/room1#4RWqsXkkmhNabod9AABJ] with status: DENIED
+[10/12/17, 4:42:15 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:42:15 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:15 pm] INFO: Devin has disconnected from Room 1
+[10/12/17, 4:42:15 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:15 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:42:15 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:18 pm] INFO: Devin connected to room: /room1; Serving back room data.
+[10/12/17, 4:42:18 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:18 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:42:18 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:18 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:42:18 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:24 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:42:24 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:24 pm] INFO: Devin has disconnected from Room 1
+[10/12/17, 4:42:24 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:24 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:42:24 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:27 pm] INFO: Devin connected to room: /room1; Serving back room data.
+[10/12/17, 4:42:27 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:27 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:42:27 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:27 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:42:27 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:43 pm] INFO: Devin has disconnected from Room 1
+[10/12/17, 4:42:43 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:43 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:42:43 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:43 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:42:43 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:46 pm] INFO: Devin connected to room: /room1; Serving back room data.
+[10/12/17, 4:42:46 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:46 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:42:46 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:46 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:42:46 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:56 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:42:56 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:56 pm] INFO: Devin has disconnected from Room 1
+[10/12/17, 4:42:56 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:42:57 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:42:57 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:43:01 pm] INFO: Devin connected to room: /room1; Serving back room data.
+[10/12/17, 4:43:01 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:43:01 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:43:01 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:43:01 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:43:01 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:44:26 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:44:26 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:44:31 pm] INFO: Devin has disconnected from Room 1
+[10/12/17, 4:44:31 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:44:31 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:44:31 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:44:33 pm] INFO: Devin connected to room: /room1; Serving back room data.
+[10/12/17, 4:44:33 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:44:34 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:44:34 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:44:58 pm] INFO: Devin has disconnected from Room 1
+[10/12/17, 4:44:58 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:44:58 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:44:58 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:45:00 pm] INFO: Devin connected to room: /room1; Serving back room data.
+[10/12/17, 4:45:00 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:45:00 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:45:00 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:45:23 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:45:23 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:45:23 pm] INFO: Devin has disconnected from Room 1
+[10/12/17, 4:45:23 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:45:26 pm] INFO: Devin connected to room: /room1; Serving back room data.
+[10/12/17, 4:45:26 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:45:26 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:45:26 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:45:29 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:45:29 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:45:43 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:45:43 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:45:45 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:45:45 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:45:46 pm] INFO: Devin has disconnected from Room 1
+[10/12/17, 4:45:46 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:45:47 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:45:47 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:45:49 pm] INFO: A chat request has arrived fromSockId: [/room1#tbUJCDn4esWIJve0AABf] to sockId: [/room1#jEzf5dLU5Xt81T4nAABg]
+[10/12/17, 4:45:52 pm] INFO: A chat request response has arrived fromSockId: [/room1#tbUJCDn4esWIJve0AABf] to sockId: [/room1#jEzf5dLU5Xt81T4nAABg] with status: ACCEPTED
+[10/12/17, 4:46:12 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:46:12 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:46:15 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:46:15 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:46:16 pm] INFO: Devin connected to room: /room1; Serving back room data.
+[10/12/17, 4:46:16 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:46:23 pm] INFO: A chat request has arrived fromSockId: [/room1#tbUJCDn4esWIJve0AABf] to sockId: [/room1#FI0Y2EEfSgwcqktvAABi]
+[10/12/17, 4:46:26 pm] INFO: A chat request response has arrived fromSockId: [/room1#tbUJCDn4esWIJve0AABf] to sockId: [/room1#FI0Y2EEfSgwcqktvAABi] with status: DENIED
+[10/12/17, 4:46:54 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:46:54 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:46:54 pm] INFO: A new message from Maxine to Devin has been dispatched
+[10/12/17, 4:47:02 pm] INFO: A chat request has arrived fromSockId: [/room1#tbUJCDn4esWIJve0AABf] to sockId: [/room1#FI0Y2EEfSgwcqktvAABi]
+[10/12/17, 4:47:06 pm] INFO: A new message from Maxine to Devin has been dispatched
+[10/12/17, 4:47:12 pm] INFO: A chat request has arrived fromSockId: [/room1#tbUJCDn4esWIJve0AABf] to sockId: [/room1#FI0Y2EEfSgwcqktvAABi]
+[10/12/17, 4:47:16 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:47:16 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:47:17 pm] INFO: GioGio has disconnected from Room 1
+[10/12/17, 4:47:17 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:47:18 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:47:18 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:47:19 pm] INFO: GioGio connected to room: /room1; Serving back room data.
+[10/12/17, 4:47:19 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:47:19 pm] INFO: Devin has disconnected from Room 1
+[10/12/17, 4:47:19 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:47:21 pm] INFO: Devin connected to room: /room1; Serving back room data.
+[10/12/17, 4:47:21 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:47:23 pm] INFO: A chat request has arrived fromSockId: [/room1#3__l8DYyDDdglGy1AABj] to sockId: [/room1#X5Ew_oglH4KCanllAABl]
+[10/12/17, 4:47:25 pm] INFO: A chat request response has arrived fromSockId: [/room1#3__l8DYyDDdglGy1AABj] to sockId: [/room1#X5Ew_oglH4KCanllAABl] with status: DENIED
+[10/12/17, 4:47:34 pm] INFO: Maxine has disconnected from Room 1
+[10/12/17, 4:47:34 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:47:35 pm] INFO: Devin has disconnected from Room 1
+[10/12/17, 4:47:35 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:47:36 pm] INFO: Maxine connected to room: /room1; Serving back room data.
+[10/12/17, 4:47:36 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:47:37 pm] INFO: Devin connected to room: /room1; Serving back room data.
+[10/12/17, 4:47:37 pm] INFO: Notifying Room 1 users of new user join
+[10/12/17, 4:47:38 pm] INFO: A chat request has arrived fromSockId: [/room1#OwvUIFAmUcETo0W4AABm] to sockId: [/room1#QzSEFEiBb6bQWLJUAABk]
+[10/12/17, 4:47:41 pm] INFO: A chat request response has arrived fromSockId: [/room1#OwvUIFAmUcETo0W4AABm] to sockId: [/room1#QzSEFEiBb6bQWLJUAABk] with status: ACCEPTED
+[10/12/17, 4:47:44 pm] INFO: A chat request has arrived fromSockId: [/room1#OwvUIFAmUcETo0W4AABm] to sockId: [/room1#NDjpB6eFSS76RiHDAABn]
+[10/12/17, 4:47:46 pm] INFO: A chat request response has arrived fromSockId: [/room1#OwvUIFAmUcETo0W4AABm] to sockId: [/room1#NDjpB6eFSS76RiHDAABn] with status: DENIED

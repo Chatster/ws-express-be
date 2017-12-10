@@ -22,6 +22,7 @@ import { ArgsReader } from './core/ArgsReader.core';
 import { ClientRegistrationDTO } from './x-shared/dtos/ClientRegistration.dto';
 import { ChatRequestDTO } from './x-shared/dtos/ChatRequest.dto';
 import { ChatRequestResponseDTO } from './x-shared/dtos/ChatRequestResponse.dto';
+import { MessageSendDTO } from './x-shared/dtos/MessageSend.dto';
 
 export class ChatsterServerIO {
     //  Socket and server stuff
@@ -115,6 +116,14 @@ export class ChatsterServerIO {
                         const room = this.roomsManager.getRoomByUserSocketId(data.fromSockId);
                         const receiverUser = room.users.find(usr => usr.socket.id === data.fromSockId);
                         receiverUser.socket.emit(SocketEventType.client.chatRequestResponse, data);
+                    });
+
+                    //  When a new message from the client socket needs to be delivered to another socket
+                    socket.on(SocketEventType.message.send, (data: MessageSendDTO) => {
+                        const room = this.roomsManager.getRoomByUserSocketId(data.fromSockId);
+                        const receiverUser = room.users.find(usr => usr.socket.id === data.toSockId);
+                        receiverUser.socket.emit(SocketEventType.message.newMessage, data);
+                        Logger.info(`A new message from ${data.fromUsername} to ${data.toUsername} has been dispatched`);
                     });
 
                     //  On user disconnect from room
